@@ -5,7 +5,7 @@
 #
 Name     : pypi-multidict
 Version  : 6.0.4
-Release  : 57
+Release  : 58
 URL      : https://files.pythonhosted.org/packages/4a/15/bd620f7a6eb9aa5112c4ef93e7031bcd071e0611763d8e17706ef8ba65e0/multidict-6.0.4.tar.gz
 Source0  : https://files.pythonhosted.org/packages/4a/15/bd620f7a6eb9aa5112c4ef93e7031bcd071e0611763d8e17706ef8ba65e0/multidict-6.0.4.tar.gz
 Summary  : multidict implementation
@@ -15,6 +15,7 @@ Requires: pypi-multidict-license = %{version}-%{release}
 Requires: pypi-multidict-python = %{version}-%{release}
 Requires: pypi-multidict-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
+BuildRequires : pypi(setuptools)
 # Suppress stripping binaries
 %define __strip /bin/true
 %define debug_package %{nil}
@@ -66,7 +67,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1683041450
+export SOURCE_DATE_EPOCH=1685554626
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fdebug-types-section -femit-struct-debug-baseonly -fno-lto -g1 -gno-column-info -gno-variable-location-views -gz=zstd "
 export FCFLAGS="$FFLAGS -fdebug-types-section -femit-struct-debug-baseonly -fno-lto -g1 -gno-column-info -gno-variable-location-views -gz=zstd "
