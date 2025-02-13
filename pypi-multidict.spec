@@ -7,7 +7,7 @@
 #
 Name     : pypi-multidict
 Version  : 6.1.0
-Release  : 64
+Release  : 65
 URL      : https://files.pythonhosted.org/packages/d6/be/504b89a5e9ca731cd47487e91c469064f8ae5af93b7259758dcfc2b9c848/multidict-6.1.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/d6/be/504b89a5e9ca731cd47487e91c469064f8ae5af93b7259758dcfc2b9c848/multidict-6.1.0.tar.gz
 Summary  : multidict implementation
