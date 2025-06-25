@@ -6,10 +6,10 @@
 # autospec commit: 65cf152
 #
 Name     : pypi-multidict
-Version  : 6.5.0
-Release  : 75
-URL      : https://files.pythonhosted.org/packages/46/b5/59f27b4ce9951a4bce56b88ba5ff5159486797ab18863f2b4c1c5e8465bd/multidict-6.5.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/46/b5/59f27b4ce9951a4bce56b88ba5ff5159486797ab18863f2b4c1c5e8465bd/multidict-6.5.0.tar.gz
+Version  : 6.5.1
+Release  : 76
+URL      : https://files.pythonhosted.org/packages/5c/43/2d90c414d9efc4587d6e7cebae9f2c2d8001bcb4f89ed514ae837e9dcbe6/multidict-6.5.1.tar.gz
+Source0  : https://files.pythonhosted.org/packages/5c/43/2d90c414d9efc4587d6e7cebae9f2c2d8001bcb4f89ed514ae837e9dcbe6/multidict-6.5.1.tar.gz
 Summary  : multidict implementation
 Group    : Development/Tools
 License  : Apache-2.0
@@ -59,13 +59,13 @@ python3 components for the pypi-multidict package.
 
 
 %prep
-%setup -q -n multidict-6.5.0
-cd %{_builddir}/multidict-6.5.0
+%setup -q -n multidict-6.5.1
+cd %{_builddir}/multidict-6.5.1
 pushd ..
-cp -a multidict-6.5.0 buildavx2
+cp -a multidict-6.5.1 buildavx2
 popd
 pushd ..
-cp -a multidict-6.5.0 buildapx
+cp -a multidict-6.5.1 buildapx
 popd
 
 %build
@@ -73,7 +73,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1750256582
+export SOURCE_DATE_EPOCH=1750862659
 export GCC_IGNORE_WERROR=1
 CLEAR_INTERMEDIATE_CFLAGS="$CLEAR_INTERMEDIATE_CFLAGS -fdebug-types-section -femit-struct-debug-baseonly -fno-lto -g1 -gno-column-info -gno-variable-location-views -gz=zstd "
 CLEAR_INTERMEDIATE_FCFLAGS="$CLEAR_INTERMEDIATE_FFLAGS -fdebug-types-section -femit-struct-debug-baseonly -fno-lto -g1 -gno-column-info -gno-variable-location-views -gz=zstd "

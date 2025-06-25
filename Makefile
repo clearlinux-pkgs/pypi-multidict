@@ -1,5 +1,5 @@
 PKG_NAME := pypi-multidict
-URL = https://files.pythonhosted.org/packages/46/b5/59f27b4ce9951a4bce56b88ba5ff5159486797ab18863f2b4c1c5e8465bd/multidict-6.5.0.tar.gz
+URL = https://files.pythonhosted.org/packages/5c/43/2d90c414d9efc4587d6e7cebae9f2c2d8001bcb4f89ed514ae837e9dcbe6/multidict-6.5.1.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
